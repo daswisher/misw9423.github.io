@@ -1,0 +1,24 @@
+#!/bin/bash
+
+postTitle="$1"
+echo $postTitle
+if [[ -z $postTitle ]]
+then
+	echo "Since you didn't provide a post title, let's create one..."
+	echo "Enter a name for your post: "
+	read postTitle
+fi
+postTitle2=${postTitle/ /-}
+
+date=$(date +"%Y-%m-%d")
+time=$(date +"%H:%M:%S")
+
+filename="$date-$postTitle2.md"
+touch $filename
+
+echo "---" >> $filename
+echo "layout: post" >> $filename
+echo "title: "$postTitle"" >> $filename
+echo "date: $date $time" >> $filename
+echo "categories: jekyll update" >> $filename
+echo "---" >> $filename
