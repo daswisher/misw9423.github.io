@@ -19,7 +19,7 @@ void loop()
 
 ![Arduino](/assets/BareMinimum.jpg)
 
-<a href="http://arduino.cc/en/Tutorial/Blink">Blink</a> is the part where we actually begin hooking things up to the Arduino board. we have an LED on a 220 ohm resistor connected to pin 9 on the Arduino. The point of this tutorial is to demonstrate how output works and apply it to an LED. This project turns the LED on and off with a {% highlight ruby %}delay(1000){% endhighlight %} where the 1000 is the number of milliseconds the delay will last each time the LED is toggled.
+<a href="http://arduino.cc/en/Tutorial/Blink">Blink</a> is the part where we actually begin hooking things up to the Arduino board. we have an LED on a 220 ohm resistor connected to pin 9 on the Arduino. The point of this tutorial is to demonstrate how output works and apply it to an LED. This project turns the LED on and off with a delay(1000) where the 1000 is the number of milliseconds the delay will last each time the LED is toggled.
 
 ![](/assets/Blink.jpg)
 
@@ -34,8 +34,12 @@ The second method mentioned is the more common implementation because it doesn't
 
 Just like blink, <a href="http://arduino.cc/en/Tutorial/Fade">Fade</a> works by using an LED and turning it on and off. The difference though is that it does it via pulse width modulation (PWM). Simply this just means that it's toggling the state of the output so fast that the eye interprets the light from the LED as a specific brightness. This project demonstrates the use of PWM and creates a simple "breathing" effect using the LED.
 
-As its name implies, <a href="http://arduino.cc/en/Tutorial/BlinkWithoutDelay">Blink Without Delay</a> is more of a demonstration of code and how to bypass using the delay function and still create delays within the program.
+![](/assets/fade.gif)
+
+As its name implies, <a href="http://arduino.cc/en/Tutorial/BlinkWithoutDelay">Blink Without Delay</a> is more of a demonstration of code and how to bypass using the delay function (as used in the blink project above) and still create delays within the program.
+
+![](/assets/blink.gif)
 
 <a href="http://arduino.cc/en/Tutorial/Button">Button</a> is where we combine both of the worlds of input and output (I/O) to create a simple interaction a user and hardware. When the user presses the button, the light will turn on and stay on until the user releases the button. 
 
-![](/assets/Button.jpg)
+![](/assets/button.gif)
