@@ -1,3 +1,9 @@
+---
+layout: post
+title: Electrical Properties
+date: 2014-09-05 23:41:57
+categories: jekyll update
+---
 When working with Arduino, it's important to understand some of the outputs/inputs on the Arduino board as well as fundamental properties of electricity. To start, since we're using an Arduino Uno R3, it has the following pins:
 
 	1xIOREF
@@ -9,7 +15,7 @@ When working with Arduino, it's important to understand some of the outputs/inpu
 	6xAnalog Inputs
 	14xDigital (6 are PWM)
 
-In regards to electricity, components have design specifications that results in a maximum tolerance for particular properties of electricity (i.e voltage or amperage). Fortunately, voltage (v), resistance (r), and amps (i) are all related by Ohm's law giving a formula of $v = i * r$. Another important property to consider is wattage (p), which is found with the formula $p = i * v = i^2 * r$. When attempting to determine whether or not a component is suitable for a particular circuit, it's necessary to verify the component's ratings, and adjust the circuit design accordingly.
+In regards to electricity, components have design specifications that results in a maximum tolerance for particular properties of electricity (i.e voltage or amperage). Fortunately, voltage (v), resistance (r), and amps (i) are all related by Ohm's law giving a formula of  v =ir . Another important property to consider is wattage (p), which is found with the formula p=i v=i^2 r. When attempting to determine whether or not a component is suitable for a particular circuit, it's necessary to verify the component's ratings, and adjust the circuit design accordingly.
 
 There are two types of circuits: series circuits and parallel circuits. A series circuit is one where there is only one path that the power flows through. Parallel circuits have multiple paths for electricity to flow. 
 
