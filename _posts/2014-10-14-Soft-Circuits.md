@@ -8,4 +8,4 @@ Wearables are the reason why soft circuits are prevalent in modern culture. Soft
 
 ![](/assets/electronicShirt.gif)
 
-
+One thing to consider when creating soft circuits is the components being used, weight, and quality. If there is going to be something like a battery, it is ideal to try to disperse the power supply by breaking apart the cells and distributing them across the wearable. Another thing to consider with conductive thread is that it still does have resistance; As the length of thread increases, so does its resistance. One of the labs that we did in class was we connected a couple LEDs and a battery to a LilyPad. Everythin else in the project was entirely fabric. The battery holder, enclosure, and even the "wiring" were fabric. 
