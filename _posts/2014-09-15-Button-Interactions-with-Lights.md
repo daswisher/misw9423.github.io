@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Buttons and LEDs
+title: Button Interactions with Lights
 date: 2014-09-15 12:37:50
 categories: jekyll update
 ---
