@@ -17,13 +17,15 @@ void loop()
 
 {% endhighlight %}
 
+Setup is used to establish which pins are going to be used, as well as their function as either input or output pins. Loop is what is going to run the entire system. Everything that you would want your Arduino to do would go inside that loop function and would run endlessly until the Arduino loses power.
+
 ![Arduino](/assets/BareMinimum.jpg)
 
-<a href="http://arduino.cc/en/Tutorial/Blink">Blink</a> is the part where we actually begin hooking things up to the Arduino board. we have an LED on a 220 ohm resistor connected to pin 9 on the Arduino. The point of this tutorial is to demonstrate how output works and apply it to an LED. This project turns the LED on and off with a delay(1000) where the 1000 is the number of milliseconds the delay will last each time the LED is toggled.
+<a href="http://arduino.cc/en/Tutorial/Blink">Blink</a> is the part where we actually begin hooking things up to the Arduino board. we have an LED on a 220 ohm resistor connected to pin 9 on the Arduino. The point of this tutorial is to demonstrate how output works with application to an LED. This project turns the LED on and off with a delay(1000) where the 1000 is the number of milliseconds the delay will last each time the LED is toggled.
 
 ![](/assets/Blink.jpg)
 
-<a href="http://arduino.cc/en/Tutorial/DigitalReadSerial">Digital Read Serial</a> is where we begin to work with input. Buttons generally only output binary values: 0 for off/false, 1 (or any non-zero value) for on/true. After we open up the <a href="http://arduino.cc/en/guide/Environment">Serial Monitor</a>, we can view the state of the button to check whether or not it is being pressed. Since the delay is so small, it's possible to observe <a href="http://en.wikipedia.org/wiki/Switch#Contact_bounce">bouncing</a>. When using a button for input, there are two common ways to avoid interference from bouncing (this is called "debouncing").
+<a href="http://arduino.cc/en/Tutorial/DigitalReadSerial">Digital Read Serial</a> begins to work with input. Buttons generally only output binary values: 0 for off/false, 1 (or any non-zero value) for on/true. After we open up the <a href="http://arduino.cc/en/guide/Environment">Serial Monitor</a>, we can view the state of the button to check whether or not it is being pressed. Since the delay is so small, it's possible to observe <a href="http://en.wikipedia.org/wiki/Switch#Contact_bounce">bouncing</a>. When using a button for input, there are two common ways to avoid interference from bouncing (this is called "debouncing").
 
 Method 1: Setup a <a href="http://en.wikipedia.org/wiki/Pull-up_resistor">pull-down</a> circuit and add a capacitor.
 
@@ -36,10 +38,10 @@ Just like blink, <a href="http://arduino.cc/en/Tutorial/Fade">Fade</a> works by 
 
 ![](/assets/fade.gif)
 
-As its name implies, <a href="http://arduino.cc/en/Tutorial/BlinkWithoutDelay">Blink Without Delay</a> is more of a demonstration of code and how to bypass using the delay function (as used in the blink project above) and still create delays within the program.
+As its name implies, <a href="http://arduino.cc/en/Tutorial/BlinkWithoutDelay">Blink Without Delay</a> is more of a demonstration of code and how to bypass using the delay function (as used in the blink project above), but still create delays within the program.
 
 ![](/assets/blink.gif)
 
-<a href="http://arduino.cc/en/Tutorial/Button">Button</a> is where we combine both of the worlds of input and output (I/O) to create a simple interaction a user and hardware. When the user presses the button, the light will turn on and stay on until the user releases the button. 
+<a href="http://arduino.cc/en/Tutorial/Button">Button</a> is where we combine both worlds of input and output (I/O) to create a simple interaction between a user an hardware. When the user presses the button, the light will turn on and stay on until the user releases the button. 
 
 ![](/assets/button.gif)

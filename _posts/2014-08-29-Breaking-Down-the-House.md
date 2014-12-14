@@ -6,10 +6,10 @@ categories: jekyll update
 ---
 Today, I was tasked with breaking apart something electronic in my house. Luckily, I already have the wall in my office area decorated with a dismantled laptop :D
 Needless to say, let's get into it!
-While there are a bunch of parts to look at, I unfortunately had to throw away some components since there was no way to hang a heavy @#$ battery on the wall. To begin, we can see in this first image that we have the motherboard, a usb controller card, a keyboard, hard drive controller cards (HDD platter+head), the webcam, speakers, wireless modules, and the microphone. {If you want to get technical, yes thats a portion of the LCD panel at the top of the image}.
+While there are a bunch of parts to look at, I unfortunately had to throw away some components since there was no way to hang a heavy @#$ battery on the wall. To begin, we can see in this first image that we have the motherboard, a usb controller card, a keyboard, hard drive controller cards (HDD platter+head), the webcam, speakers, wireless modules, and the microphone. {Yes, that's a portion of the LCD panel at the top of the image}.
 ![](/assets/ComputerP1.jpg)
 
-Looking a little closer at the motherboard, we can see our components a little better. Thanks to the many advancements in technology, it's not incredibly easy to see a specific individual part immediately and be able to replace it. Bear with me here. So some of the major parts you'll find connected on this board are the processor and graphic processor (CPU and GPU) located under the copper heatsink, a couple sticks of memory (RAM), the black hard drive (HDD) serial ATA (SATA) port, an ethernet port (RJ45), audio connectors (3.5 mm audio jacks), and the external display connector (VGA).
+Looking a little closer at the motherboard, we can see our components a little better. Thanks to the many advancements in technology, it's not incredibly easy to see a specific individual part immediately and be able to replace it. Some of the major parts you'll find connected on this board are the processor and graphic processor (CPU and GPU) located under the copper heatsink, a couple sticks of memory (RAM), the black hard drive (HDD) serial ATA (SATA) port, an ethernet port (RJ45), audio connectors (3.5 mm audio jacks), and the external display connector (VGA).
 
 
 ![](/assets/ComputerP2.jpg)
@@ -32,7 +32,7 @@ This is an integrated circuit (IC).
 
 ![](/assets/icf.jpg)
 
-There's a bunch of parts in this picture, but the ones that are easiest to spot out are the resistors. Those are going to be the copperish looking pills. Glancing over at the other components, it looks like there are also some ICs, transistors, a relay, and maybe some small capacitors. The little circles (towards the lower right quadrant) are holes that can be used with through-hole-technology (THT) components even though most of the parts you'll find are surface-mount-devices (SMD).There are reasons why you'd use SMD over THT and vice versa.
+There are a bunch of parts in this picture, but the ones that are easiest to spot out are the resistors. Those are going to be the copperish looking pills. Glancing over at the other components, it looks like there are also some ICs, transistors, a relay, and maybe some small capacitors. The little circles (towards the lower right quadrant) are holes that can be used with through-hole-technology (THT) components even though most of the parts you'll find are surface-mount-devices (SMD).There are reasons why you'd use SMD over THT and vice versa.
 
 ![](/assets/resistorsf.jpg)
 
@@ -64,7 +64,7 @@ There's a bunch of parts in this picture, but the ones that are easiest to spot 
 	<tr>
 		<td></td>
 			<td>
-				None destructive and size helps for maximizing components per printed circuit board (PCB) since it allows for using both of the sides of the PCB instead of just one.
+				Not as destructive since it doesn't reduce the mounting surface area like THT, small size helps for maximizing components per printed circuit board (PCB), and they normally utilize both of the sides of the PCB instead of just one.
 			</td>
 		
 	</tr>

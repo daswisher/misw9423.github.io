@@ -4,7 +4,7 @@ title: Electrical Properties
 date: 2014-09-05 23:41:57
 categories: jekyll update
 ---
-Components have design specifications that results in a maximum tolerance for particular properties of electricity (i.e voltage or amperage). Fortunately, voltage (v), resistance (r), and amps (i) are all related by Ohm's law giving a formula of  v =ir . Another important property to consider is wattage (p), which is found with the formula p=i v=i^2 r. When attempting to determine whether or not a component is suitable for a particular circuit, it's necessary to verify the component's ratings, and adjust the circuit design accordingly.
+Components have design specifications that result in maximum tolerances for particular properties of electricity (i.e voltage or amperage). Fortunately, voltage (v), resistance (r), and amps (i) are all related by Ohm's law giving a formula of  v =ir . Another important property to consider is wattage (p), which is found with the formula p=i v=i^2 r. When attempting to determine whether or not a component is suitable for a particular circuit, it's necessary to verify the component's ratings, and adjust the circuit design accordingly.
 
 There are two types of circuits: series circuits and parallel circuits. A series circuit is one where there is only one path that the power flows through. Parallel circuits have multiple paths for electricity to flow. 
 
