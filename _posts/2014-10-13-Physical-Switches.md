@@ -49,3 +49,7 @@ Switches are simple components that are used to control the flow of electricity 
 		<td>Toggle state based upon orientation. There is a ball inside that will connect the internal contacts if it is in the correct position. There are also multiaxis switches.</td>
 	</tr>
 </table>
+
+There are ways to replicate the same concept behind switches using other materials. One property to consider when creating a switch is whether or not the materials are conductive. What makes a conductor is if it charged particles can move freely through the subject. For example, water by itself is not conductive. As soon as salt is introduced to water, it becomes conductive since the salt is an electrolyte. DIY switches are usually found in two forms: contact switches or bridge switches. Contact switches are when the user has to fold or pinch the surface to make the contacts connect. Bridge switches are when there needs to be a conductive material the connects the contacts. Here are some examples I can think of: 
+1. Putting contacts at the finger tips of gloves, and completing the circuit when the thumb touches the pointer finger.
+2. Having a shirt where if someone pinches a spot on the shirt, it lights up. (I.e. shirt that says, "Pinch me, I'm Irish."
