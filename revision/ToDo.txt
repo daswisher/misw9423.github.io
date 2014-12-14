@@ -1,0 +1,6 @@
+Blog articles:
+	Transistors
+	Everday Design+Definition of Interactivity+"Tangible Interaction=Form+computing"
+	Guest Speaker
+	Oscilliscopes + Multimeters + Logic analyzers
+	General trouble shooting
