@@ -1,0 +1,7 @@
+---
+layout: post
+title: Charlieplexing
+date: 2014-12-14 09:33:07
+categories: jekyll update
+---
+So we have 30 LEDs, but only 5 output pins on an Arduino. How would you control all 30 LEDs from those 5 pins, while still being able to maintain the ability to address one specific LED? Charlieplexing is a concept that is similar to multiplexing. It utilizes the manipulation of electric flow across wires [in tandem with component polarity] to invoke control of a specific part that's incorporated in an array of many parts using only a few sources. The way Charlieplexingworks is that if you place two leds with opposite polarity, then attach each lead to one of two wires, you can specifically address one of the LEDs by changing the powerflow across the wires. In terms of Arduino, we would change the output of pin 9 to HIGH, and pin 10 to LOW to turn on LED1; We could change pin 9 to LOW and 10 to HIGH to control LED2. Now you might be asking what happens when we begin to add more than one output pin, and more wires. Any extraneous outputs will be set from OUTPUT to INPUT so that they are treated as neutral pins, and don't provide any power. Fortunately, there is a formula that can be used to derive the maximum number of output devices relative to the number of output sources. I'm going to use LEDs and Arduino pins for the sake of simplicity. The number of LEDs increases exponentially as the number of pins increases. The formula is maxNumberOfLEDs= (numberOfPins^2) - numberOfPins. 
