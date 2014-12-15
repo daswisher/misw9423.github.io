@@ -19,6 +19,7 @@ At a higher level, there are a number of things that emulate the interaction bet
 	Turning signal on cars
 	Light switch on oven
 	These crazy things
+
 ![](/assets/crazyLights.jpg)
 
 Can you think of more?
